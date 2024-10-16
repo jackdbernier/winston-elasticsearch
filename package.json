@@ -36,7 +36,6 @@
     "elastic-apm-node": "^3.20.0"
   },
   "dependencies": {
-    "@elastic/elasticsearch": "^8.13.1",
     "dayjs": "^1.11.11",
     "debug": "^4.3.4",
     "lodash.defaults": "^4.2.0",
@@ -56,6 +55,9 @@
     "mocha": "^10.4.0",
     "nyc": "^15.1.0",
     "should": "^13.2.3"
+  },
+  "peerDependencies": {
+    "@elastic/elasticsearch": "^8.13.1"
   },
   "scripts": {
     "test": "nyc mocha",
